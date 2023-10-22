@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Форматированный текст в HTML</h1>
+        <div class="paragraph">
+            <h2>Абзац и формирующий его тег &ltp&gt</h2>
+<pre>    Для разбиения текста на абзацы в <span class="language">HTML</span> используется элемент 
+<span class="tag"><strong>«Абзац»</strong></span>, который формируется парным тегом &lt<span class="tag"><strong>p</strong></span>&gt (от <span class="language">англ.</span> <span class="descript"><em>paragraph</em></span> – 
+абзац). И хотя в некоторых случаях спецификация допускает отсутствие 
+закрывающего тега, мы будем применять его всегда, явно формируя 
+элемент «Абзац». Добавим, что абзац относится к блочным элементам, 
+поэтому по умолчанию начинается с новой строки и отделяется от 
+остального содержимого вертикальными отступами.
+</pre>
+        </div>
+        <div class="heading">
+            <h2>Создание заголовков. Теги &lth1&gt-&lth6&gt</h2>
+<pre>
+    Если возникает необходимость как-то назвать часть текста 
+(например, параграф или раздел) и выделить его относительную 
+важность, можно воспользоваться одним из шести заголовков разного 
+уровня, которые формируются парными тегами от &lt<span class="tag"><strong>h1</strong></span>&gt до &lt<span class="tag"><strong>h6</strong></span>&gt (от 
+<span class="language">англ.</span> <span class="descript"><em>heading</em></span> – заголовок) и также относятся к блочным элементам. 
+Заголовок первого уровня отображается самым крупным шрифтом 
+жирного начертания, остальные - поменьше, по мере убывания своей 
+важности.
+</pre>
+        </div>
+        <div class="preformatted">
+            <h2>Преформатированный текст. Тег &ltpre&gt</h4>
+<pre>
+    А что если нам нужно вывести исходный текст на экран без 
+форматирования? Такая ситуация случается, например, когда 
+нужно сохранить подряд идущие пробелы и переносы строк или 
+просто сохранить исходное форматирование при отображении тех 
+же примеров кода.
+</pre>
+<pre style="border: 1px solid; border-radius: 5px; padding-left: 10px;">
+    p {
+        text-align: justify;
+        font-size: 14px;
+    }
+</pre>
+<pre>
+    В таких случаях можно применить элемент «преформатированный 
+текст», который формируется парным тегом &lt<span class="tag"><strong>pre</strong></span>&gt (от <span class="language">англ.</span> 
+<span class="descript"><em>preformatted text</em></span> – предварительно форматированный текст). 
+Браузеры отображают его как блочный элемент.
+</pre>
+        </div>
+    </div>
+</body>
+</html>

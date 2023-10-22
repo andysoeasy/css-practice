@@ -1,0 +1,31 @@
+.container{
+    background: rgb(245, 245, 245);
+    margin: auto;
+    max-width: 600px;
+    font-size: 16px;
+}
+
+.container h1{
+    padding: 10px;
+    text-align: center;   
+}
+
+.descript{
+    color: #cc9c17;
+}
+
+.language{
+    color: rgb(39, 145, 39);
+}
+
+.tag{
+    color: blue;
+}
+
+h2{
+    padding-left: 10px;
+}
+
+pre{
+    padding-left: 10px;
+}
