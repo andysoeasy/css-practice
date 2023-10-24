@@ -1,7 +1,7 @@
 .container{
     background: rgb(245, 245, 245);
-    margin: auto;
-    max-width: 900px;
+    margin: 100px 100px 100px 100px;
+    
     font-size: 16px;
 }
 
